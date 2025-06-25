@@ -18,6 +18,7 @@ Token=data.body.access_token
  it.skip('Check API Authentification', () => {
 //console.log('Voci le contenu de la class' , API)
 API.Login().then(data =>{
+cy.log(data)
 //console.log(data)
 //console.log('voici mon token', data.body.access_token)
 

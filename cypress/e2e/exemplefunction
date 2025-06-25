@@ -1,0 +1,5 @@
+function myfunctionRyad(x,y){
+  return x + y 
+}
+
+console.log ('la somme des deux chiffres est égale à : ', myfunctionRyad(10,13))
